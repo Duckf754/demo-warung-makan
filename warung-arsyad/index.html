@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warung Makan Arsyad - Makanan Enak, Harga Bersahabat</title>
+    <meta name="description" content="Warung Makan Arsyad - Menyajikan makanan Indonesia lezat dengan harga terjangkau. Nasi goreng, ayam geprek, mie ayam, dan banyak lagi.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <i class="fas fa-utensils"></i>
+                <span>Warung Arsyad</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Beranda</a></li>
+                <li><a href="#tentang" class="nav-link">Tentang</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#galeri" class="nav-link">Galeri</a></li>
+                <li><a href="#lokasi" class="nav-link">Lokasi</a></li>
+                <li><a href="#testimoni" class="nav-link">Testimoni</a></li>
+                <li><a href="#kontak" class="nav-link">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="container">
+                <span class="hero-subtitle" data-aos="fade-down">Selamat Datang di</span>
+                <h1 class="hero-title" data-aos="fade-up">Warung Makan Arsyad</h1>
+                <p class="hero-tagline" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-quote-left"></i>
+                    Makanan Enak, Harga Bersahabat, Rasa Rumahan
+                    <i class="fas fa-quote-right"></i>
+                </p>
+                <p class="hero-description" data-aos="fade-up" data-aos-delay="200">
+                    Nikmati berbagai hidangan lezat khas Indonesia yang dibuat dengan cinta dan bahan-bahan segar berkualitas.
+                </p>
+                <div class="hero-buttons" data-aos="fade-up" data-aos-delay="300">
+                    <a href="https://wa.me/6281234567890?text=Halo%20Warung%20Makan%20Arsyad,%20saya%20mau%20pesan%20makanan" class="btn btn-primary" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        Pesan Sekarang
+                    </a>
+                    <a href="#menu" class="btn btn-secondary">
+                        <i class="fas fa-book-open"></i>
+                        Lihat Menu
+                    </a>
+                </div>
+                <div class="hero-features" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-item">
+                        <i class="fas fa-fire"></i>
+                        <span>Dimasak Fresh</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-leaf"></i>
+                        <span>Bahan Segar</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-wallet"></i>
+                        <span>Harga Terjangkau</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#tentang" class="scroll-indicator">
+                <span>Scroll Down</span>
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Tentang Section -->
+    <section id="tentang" class="about">
+        <div class="container">
+            <div class="about-wrapper">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="about-image-main">
+                        <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=700&fit=crop" alt="Interior Warung Makan Arsyad">
+                        <div class="experience-badge">
+                            <span class="years">5+</span>
+                            <span class="text">Tahun<br>Pengalaman</span>
+                        </div>
+                    </div>
+                    <div class="about-image-small">
+                        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=300&h=300&fit=crop" alt="Makanan Lezat">
+                    </div>
+                </div>
+                <div class="about-content" data-aos="fade-left">
+                    <span class="section-subtitle">Tentang Kami</span>
+                    <h2 class="section-title">Warung Makan Arsyad</h2>
+                    <p class="about-text">
+                        Warung Makan Arsyad hadir sejak tahun 2019 dengan misi menyajikan makanan Indonesia yang lezat dan otentik dengan harga yang bersahabat untuk semua kalangan.
+                    </p>
+                    <p class="about-text">
+                        Kami percaya bahwa makanan yang enak tidak harus mahal. Setiap hidangan kami masak dengan penuh cinta menggunakan resep turun-temurun dan bahan-bahan segar pilihan.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Menu Variasi</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10K+</span>
+                            <span class="stat-label">Pelanggan Puas</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">4.9</span>
+                            <span class="stat-label">Rating Google</span>
+                        </div>
+                    </div>
+                    <a href="#menu" class="btn btn-primary">
+                        <i class="fas fa-utensils"></i>
+                        Jelajahi Menu
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Menu Favorit</span>
+                <h2 class="section-title">Pilihan Menu Terbaik Kami</h2>
+                <p class="section-description">Berbagai hidangan lezat yang siap memanjakan lidah Anda</p>
+            </div>
+            
+            <div class="menu-tabs" data-aos="fade-up">
+                <button class="tab-btn active" data-tab="all">Semua</button>
+                <button class="tab-btn" data-tab="nasi">Nasi</button>
+                <button class="tab-btn" data-tab="mie">Mie & Bakso</button>
+                <button class="tab-btn" data-tab="minuman">Minuman</button>
+            </div>
+            
+            <div class="menu-grid" id="menuGrid">
+                <!-- Menu items will be rendered by JavaScript -->
+            </div>
+            
+            <div class="menu-cta" data-aos="fade-up">
+                <p>Dan masih banyak menu lainnya!</p>
+                <a href="https://wa.me/6281234567890?text=Halo%20Warung%20Makan%20Arsyad,%20saya%20mau%20lihat%20menu%20lengkap" class="btn btn-primary" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    Lihat Menu Lengkap
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeri Section -->
+    <section id="galeri" class="gallery">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Galeri</span>
+                <h2 class="section-title">Momen di Warung Kami</h2>
+                <p class="section-description">Lihat suasana dan hidangan lezat di Warung Makan Arsyad</p>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item large" data-aos="fade-up">
+                    <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&h=600&fit=crop" alt="Nasi Goreng Spesial">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Nasi Goreng Spesial</span>
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=400&h=400&fit=crop" alt="Ayam Geprek">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Ayam Geprek</span>
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=400&h=400&fit=crop" alt="Suasana Warung">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Suasana Warung</span>
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="300">
+                    <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&h=400&fit=crop" alt="Sayur Segar">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Sayur Segar</span>
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="400">
+                    <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=400&h=400&fit=crop" alt="Es Teh Manis">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Es Teh Manis</span>
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item large" data-aos="fade-up" data-aos-delay="500">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop" alt="Area Makan">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Area Makan Nyaman</span>
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lokasi Section -->
+    <section id="lokasi" class="location">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Lokasi</span>
+                <h2 class="section-title">Kunjungi Warung Kami</h2>
+                <p class="section-description">Kami siap menyambut kedatangan Anda</p>
+            </div>
+            
+            <div class="location-wrapper">
+                <div class="location-info" data-aos="fade-right">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Alamat</h3>
+                            <p>Jl. Makan Enak No. 123<br>Kelurahan Lezat, Kecamatan Nikmat<br>Kota Jakarta Selatan, 12345</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Jam Buka</h3>
+                            <p><strong>Senin - Minggu</strong><br>08:00 - 22:00 WIB</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Telepon</h3>
+                            <p>+62 812-3456-7890</p>
+                        </div>
+                    </div>
+                    <a href="https://maps.google.com/?q=-6.2088,106.8456" class="btn btn-primary" target="_blank">
+                        <i class="fas fa-directions"></i>
+                        Buka di Google Maps
+                    </a>
+                </div>
+                <div class="location-map" data-aos="fade-left">
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d106.8195613507864!3d-6.194741395493371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5390917b759%3A0x6b45e67356080477!2sMonas!5e0!3m2!1sid!2sid!4v1625000000000!5m2!1sid!2sid" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy"
+                            title="Lokasi Warung Makan Arsyad">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimoni Section -->
+    <section id="testimoni" class="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Testimoni</span>
+                <h2 class="section-title">Apa Kata Pelanggan Kami</h2>
+                <p class="section-description">Ulasan jujur dari para pelanggan setia kami</p>
+            </div>
+            
+            <div class="testimonials-slider" data-aos="fade-up">
+                <div class="testimonials-track" id="testimonialsTrack">
+                    <!-- Testimonials will be rendered by JavaScript -->
+                </div>
+                <div class="testimonials-nav">
+                    <button class="nav-btn prev" id="prevBtn" aria-label="Previous testimonial">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="testimonials-dots" id="testimonialsDots"></div>
+                    <button class="nav-btn next" id="nextBtn" aria-label="Next testimonial">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="cta-overlay"></div>
+        <div class="container">
+            <div class="cta-content" data-aos="zoom-in">
+                <h2 class="cta-title">Pesan Sekarang & Nikmati Kelezatannya!</h2>
+                <p class="cta-description">Pesan via WhatsApp untuk pengalaman makan yang lebih praktis. Kami siap mengantar pesanan Anda!</p>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/6281234567890?text=Halo%20Warung%20Makan%20Arsyad,%20saya%20mau%20pesan%20makanan" class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        Chat WhatsApp
+                    </a>
+                    <a href="tel:+6281234567890" class="btn btn-outline">
+                        <i class="fas fa-phone"></i>
+                        Telepon Langsung
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="kontak">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand">
+                        <a href="#" class="footer-logo">
+                            <i class="fas fa-utensils"></i>
+                            <span>Warung Arsyad</span>
+                        </a>
+                        <p class="footer-desc">
+                            Menyajikan makanan Indonesia lezat dengan harga bersahabat sejak 2019. Kualitas rasa adalah prioritas kami.
+                        </p>
+                        <div class="footer-social">
+                            <a href="https://instagram.com/arsyad.dev" target="_blank" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://wa.me/6281234567890" target="_blank" aria-label="WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <a href="#" aria-label="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <h3 class="footer-title">Menu Cepat</h3>
+                        <ul>
+                            <li><a href="#home"><i class="fas fa-chevron-right"></i> Beranda</a></li>
+                            <li><a href="#tentang"><i class="fas fa-chevron-right"></i> Tentang Kami</a></li>
+                            <li><a href="#menu"><i class="fas fa-chevron-right"></i> Menu</a></li>
+                            <li><a href="#galeri"><i class="fas fa-chevron-right"></i> Galeri</a></li>
+                            <li><a href="#lokasi"><i class="fas fa-chevron-right"></i> Lokasi</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <h3 class="footer-title">Menu Populer</h3>
+                        <ul>
+                            <li><a href="#menu"><i class="fas fa-chevron-right"></i> Nasi Goreng Spesial</a></li>
+                            <li><a href="#menu"><i class="fas fa-chevron-right"></i> Ayam Geprek</a></li>
+                            <li><a href="#menu"><i class="fas fa-chevron-right"></i> Mie Ayam</a></li>
+                            <li><a href="#menu"><i class="fas fa-chevron-right"></i> Nasi Campur</a></li>
+                            <li><a href="#menu"><i class="fas fa-chevron-right"></i> Es Teh Manis</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-contact">
+                        <h3 class="footer-title">Hubungi Kami</h3>
+                        <ul>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Jl. Makan Enak No. 123<br>Jakarta Selatan, 12345</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone"></i>
+                                <a href="tel:+6281234567890">+62 812-3456-7890</a>
+                            </li>
+                            <li>
+                                <i class="fab fa-whatsapp"></i>
+                                <a href="https://wa.me/6281234567890" target="_blank">+62 812-3456-7890</a>
+                            </li>
+                            <li>
+                                <i class="fab fa-instagram"></i>
+                                <a href="https://instagram.com/arsyad.dev" target="_blank">@arsyad.dev</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 Warung Makan Arsyad. All Rights Reserved.</p>
+                <p>Made with <i class="fas fa-heart"></i> by Arsyad</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/6281234567890?text=Halo%20Warung%20Makan%20Arsyad,%20saya%20mau%20pesan%20makanan" class="whatsapp-float" target="_blank" aria-label="Chat WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Chat Kami</span>
+    </a>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close lightbox">
+            <i class="fas fa-times"></i>
+        </button>
+        <img src="" alt="Lightbox image" id="lightboxImage">
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
